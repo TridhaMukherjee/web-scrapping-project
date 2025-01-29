@@ -1,4 +1,4 @@
-# Amazon Price Tracker
+# Amazon Web Scrapping (Price Tracker)
 
 ## Overview
 This project is a web scraping tool that tracks the price of a product on Amazon using its URL. It periodically checks the price over a specified timeframe and sends an email notification when the price drops below a defined threshold.
