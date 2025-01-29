@@ -22,10 +22,6 @@ This project is a web scraping tool that tracks the price of a product on Amazon
    PRODUCT_URL = "(https://www.amazon.com/Never-Forget-Shirt-Science-T-Shirt/dp/B07WQ5QB83/ref=sr_1_16?crid=MJ75HSDLOK9L&customId=B0752XJYNL&customizationToken=MC_Assembly_1%23B0752XJYNL&dib=eyJ2IjoiMSJ9.o60EHLqu5DeAmm2A0l89BOEjNPx043zUdNZz3Fw_b1IpqJ-Gzvpx71l5pAaeut8ykTnT6-iu3UQRrdHhxynO9t7MB0IvaHx7vvyNuCyaGbfTlGiJHuOpm_rxi_np0_kf0RvNzEQmelYTZ4HVNHU_AuLQKMeSPfXTQ5cYZmQI60qpfr3SiNetyFnQyC9ZfSZDDYG_JWCeY8WV1OwCfP1olULAV3r1uiGu__y4Attao18uZBci1HJVq7IoESt4I1K5cpLuutLIrjNZ7UFLlD5UMykmOyEWmjbrHKLJ_qa1kHg.SyczVKDNOVuZvvpjKbSMM7G9p3hlQON2yE4bWDpPKy0&dib_tag=se&keywords=tshirts+shirts+for+men+graphic&qid=1710273606&sprefix=tshirts+shirts+for+men+%2Caps%2C126&sr=8-16)"
    TARGET_PRICE = 10.00
    ```
-2. Run the script:
-   ```sh
-   python tracker.py
-   ```
 
 ## How It Works
 - The script fetches the product page and extracts the price using BeautifulSoup.
